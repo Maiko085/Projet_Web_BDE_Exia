@@ -13,36 +13,26 @@
 <header>
 
 
+
 <nav class="navbar navbar-default navbar-fixed-top">
-  
-
-        
-           <div id="conteneur1">
-              <div class="logo"><img id="logo" src="ressources/logo.jpg" width="75" height="75"></div>
-              <div class="element"><br /><br />BDE CESI LYON</div>
-              <div class="element"><form method="post" action="traitement.php">
-
-    <p>
-
-        <label for="search"></label>
-
-        <input type="search" name="search" id="search" placeholder="Rechercher" size="30" maxlength="10" />
-
-    </p>
-    <p> <a href="Inscription" class="box">Inscription</a> /
+  <div class="container-fluid">
+    <ul class="nav navbar-nav">
+      <li> <a href="Acceuille"><div class="logo"><img id="logo" src="ressources/logo.jpg" width="70" height="70"></div></a> </li>
+      <li> <a href="Vie Associative.html">Vie Associative</a> </li>
+      <li> <a href="Phototech.html">Phototech</a> </li>
+      <li> <a href="Actualité.html">Actualité</a> </li>
+      <li> <a href="Boutique.html">Boutique</a> </li>
+      <li> <a href="Informations.html">Informations</a> </li>
+    </ul>
+    <form class="navbar-form navbar-right inline-form">
+      <div class="form-group">
+        <input type="search" class="input-sm form-control" placeholder="Recherche">
+        <button type="submit" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-eye-open"></span> Chercher</button>
+        <p> <a class="active" href="Inscription" class="box">Inscription</a> /
         <a href="Connexion" class="box">Connexion</a> </p>
-
-          </div></form>
-        </div>
-
-    <div class="container">
-      
-      <div class="row">
-        <div class="col-lg-offset-1 col-lg-2"><a href="Vie Associative" class="box">Vie Associative</a> </div>
-        <div class="col-lg-2"><a href="Phototech" class="box">Phototech</a></div>
-        <div class="col-lg-2"><a href="Actualité" class="box">Actualité</a></div>
-        <div class="col-lg-2"><a href="Boutique.html" class="box">Boutique</a></div>
-        <div class="col-lg-2"><a href="Informations" class="box">Informations</a></div>
+      </div>
+    </form>
+  </div>
 </nav>
 </header>
 
@@ -66,10 +56,18 @@
        <br />
        <label for="pass">Mot de passe* :</label>
        <input type="password" name="pass" id="pass" required/>
+
+       <br />
+       <label for="pass">Confimez mot de passe* :</label>
+       <input type="password" name="pass"required/>
        
        <br />
        <label for="numero">Telephone   :</label>
        <input type="tel" minlength="10" maxlength="10" />
+
+       <br />
+       <label for="avatar">Choisissez votre avatar :</label>
+       <input type="file" name="avatar" id="avatar" />(Taille max : 10Ko)<br />
 
        <form method="post" action="traitement.php">
 
