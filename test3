@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="body.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <title>BDE CESI LYON</title>
+</head>
+
+<body>
+<header>
+
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  
+
+        
+           <div id="conteneur1">
+              <div class="logo"><img id="logo" src="ressources/logo.jpg" width="75" height="75"></div>
+              <div class="element"><br /><br />BDE CESI LYON</div>
+              <div class="element"><form method="post" action="traitement.php">
+
+    <p>
+
+        <label for="search"></label>
+
+        <input type="search" name="search" id="search" placeholder="Rechercher" size="30" maxlength="10" />
+
+    </p>
+    <p> <a href="Inscription" class="box">Inscription</a> </p>
+    <p> <a href="Connexion" class="box">Connexion</a> </p>
+
+
+          </div></form>
+        </div>
+
+    <div class="container">
+      
+      <div class="row">
+        <div class="col-lg-offset-1 col-lg-2"><a href="Vie Associative" class="box">Vie Associative</a> </div>
+        <div class="col-lg-2"><a href="Phototech" class="box">Phototech</a></div>
+        <div class="col-lg-2"><a href="Actualité" class="box">Actualité</a></div>
+        <div class="col-lg-2"><a href="Boutique.html" class="box">Boutique</a></div>
+        <div class="col-lg-2"><a href="Informations" class="box">Informations</a></div>
+</nav>
+</header>
+
+    <div class="container">
+      
+      <div class="row">
+        <div class="col-lg-offset-2 col-lg-4"><a href="Connexion" class="box"><form method="post" action="traitement.php">
+
+   <p align="center"><br /><br /><br /><br />
+
+       <label for="pseudo">Votre pseudo :</label>
+
+       <input type="email" name="pseudo" id="pseudo" />
+
+       
+
+       <br />
+
+       <label for="pass">Votre mot de passe :</label>
+
+       <input type="password" name="pass" id="pass" />
+
+       
+
+   </p>
+
+</form></a> </div>
+
+
+
+
+        <div class="col-lg-4"><a href="Inscription" class="box"><form method="post" action="traitement.php" align-center>
+   <p><br /><br /><br /><br />
+       <label for="email">Email*        :</label>
+       <input type="email" name="email" id="email" autofocus required />
+
+              <br />
+       <label for="nom">Nom*          :</label>
+       <input type="text" name="nom" id="nom" required/>
+
+              <br />
+       <label for="prenom">Prenom*       :</label>
+       <input type="text" name="prenom" id="prenom" required/>
+       
+       <br />
+       <label for="pseudo">Pseudo*       :</label>
+       <input type="text" name="pseudo" id="pseudo" minlength="3" maxlength="10" required/>
+
+       <br />
+       <label for="pass">Mot de passe* :</label>
+       <input type="password" name="pass" id="pass" required/>
+       
+       <br />
+       <label for="numero">Telephone   :</label>
+       <input type="tel" minlength="10" maxlength="10" />
+
+       <form method="post" action="traitement.php">
+
+        <br />
+       <label for="promo">Promo*        :</label>
+       <select name="promo" id="promo">
+                <optgroup label="Exia">
+           <option value="Exia A1">Exia A1</option>
+           <option value="Exia A2">Exia A2</option>
+           <option value="Exia A3">Exia A3</option>
+           <option value="Exia A4">Exia A4</option>
+           <option value="Exia A5">Exia A5</option>
+         </optgroup>
+                <optgroup label="EI">
+           <option value="Ei A1">Ei A1</option>
+           <option value="Ei A2">Ei A2</option>
+           <option value="Ei A3">Ei A3</option>
+           <option value="Ei A4">Ei A4</option>
+           <option value="Ei A5">Ei A5</option>
+           </optgroup>
+       </select>
+   </p>
+</form>
+
+  <p align="center">
+<input type="submit" value="Envoyer" /> 
+   </p>
+</form></a></div>
+        <div class="col-lg-2"><a href="Actualité" class="box"></a></div>
+
+
+
+          </body>
+</html>
