@@ -19,6 +19,10 @@
      <a href="Acceuille"><div class="logo"><img id="logo" src="ressources/logo.jpg" width="70" height="70"></div></a> 
     </div>
     <ul class="nav navbar-nav">
+<<<<<<< HEAD
+=======
+      <li> <a href="Acceuille"><div class="logo"><img id="logo" src="ressources/logo.jpg" width="70" height="70"></div></a> </li>
+>>>>>>> origin/master
       <li> <a href="Vie Associative.html">Vie Associative</a> </li>
       <li> <a href="Phototech.html">Phototech</a> </li>
       <li> <a href="Actualité.html">Actualité</a> </li>
@@ -28,6 +32,10 @@
     <form class="navbar-form navbar-right inline-form">
       <div class="form-group">
         <input type="search" class="input-sm form-control" placeholder="Recherche">
+<<<<<<< HEAD
+=======
+        <button type="submit" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-eye-open"></span> Chercher</button>
+>>>>>>> origin/master
         <p> <a href="Inscription" class="box">Inscription</a> /
         <a href="Connexion" class="box">Connexion</a> </p>
       </div>
