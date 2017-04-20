@@ -1,0 +1,28 @@
+<?php 
+$BDD = new PDO();
+if(isset($_POST['article_titre'], $_POST['article_contenu'])) {
+	if(!empty($_POST['article_titre']) AND !empty($_POST['article_contenu'])) {
+
+	} else {
+		$erreur = 'Veuillez remplir tous les champs';
+	}
+}
+?>
+
+<html>
+<head>
+	<title>Rédaction</title>
+	<meta charset="utf-8">
+</head>	
+<body>
+
+	<form method="POST">
+		<input type="text" name="article_titre" placeholder="Titre" /><br />
+		<textarea name="article_contenu" placeholder="Contenu de l'article"></textarea><br />
+		<input type="submit" value="Envoyer l'article" />
+	</form>
+	<br />
+	<?php if(isset($erreur)) { echo $erreur; } ?>
+
+</body>
+</html>
