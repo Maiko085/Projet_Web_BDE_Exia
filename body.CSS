@@ -1,7 +1,9 @@
 body {
-  padding-top: 10px;
-  margin-top: 160px;
+  padding-top: 80px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
+
 
 [class*="col-"], footer {
 
@@ -17,6 +19,14 @@ body {
   margin-left: auto;
 }
 
+.container2 {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+}
+
 @media (min-width: 768px) {
   .container {
     width: 750px;
@@ -30,9 +40,6 @@ body {
 }
 
 @media (min-width: 1200px) {
-  nav{
-    position: fixed;
-  }
   .container {
     width: 1170px;
   }
@@ -49,3 +56,114 @@ label {
 
 #col{ margin-bottom: 20px; }
 
+table
+{
+    margin-top: -100px;
+    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+}
+
+td /* Toutes les cellules des tableaux... */
+{
+    border: 1px solid black; /* auront une bordure de 1px */
+    min-height: 10px;
+    min-width: 10px;
+    text-align: center;
+
+}
+
+th{
+  text-align: center;
+}
+
+#my_carousel{
+width: 50%;
+height: 400px;
+background-color: #906060; 
+margin-bottom: 50px;
+
+}
+
+#my_carousel2{
+width: 50%;
+height: 300px;
+background-color: #906060; 
+margin-bottom: 50px;
+
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    margin: auto;
+}
+
+.carousel .item {
+    text-align: center;
+      height: 400px;
+      width: 50%;
+    }
+ .carousel img {
+      position: relative;
+      top: 0;
+      left: 50%
+      right:50%;
+      min-width: 50%;
+      height: 300px;
+    }
+
+#carousel-caption{
+
+  color: rgb(144/96/96);
+  background-color: #906060;
+  color: blue;
+}
+
+
+  .carousel-page
+  {
+  width:100%;
+  height:200px;
+  background-color:#906060;
+  color:black;
+  }
+
+  section div img {
+    max-height: 200px;
+    max-width: 200px;
+  }
+
+  .carousel-indicators{
+    color: black;
+  }
+
+  footer{
+background-color:#906060;
+position:absolute;
+bottom:0;
+height:60px;
+width: 100%;
+margin-left: -50px;
+}
+
+  .footer{
+background-color:#906060;
+position:absolute;
+bottom:-400px;
+height:60px;
+width: 102.5%;
+margin-right: -50px;
+}
+  
+
+h1{
+  padding-bottom: 20px;
+}
+
+#row2{
+  background-color: blue;
+  height: 100%;
+  width: 100%;
+}
+
+#logoRouen{
+  margin-top: 30px;
+}

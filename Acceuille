@@ -15,145 +15,66 @@
 
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
+    <div class="navbar-header">
+     <a href="Acceuille"><div class="logo"><img id="logo" src="ressources/logo.jpg" width="70" height="70"></div></a> 
+    </div>
     <ul class="nav navbar-nav">
-      <li class="active"> <a href="Acceuille"><div class="logo"><img id="logo" src="ressources/logo.jpg" width="50" height="50"></div></a> </li>
-      <li> <a href="#">Vie Associative</a> </li>
-      <li> <a href="Test2.html">Phototech</a> </li>
-      <li> <a href="#">Actualité</a> </li>
-      <li> <a href="#">Boutique</a> </li>
-      <li> <a href="#">Informations</a> </li>
+      <li> <a href="Vie Associative.html">Vie Associative</a> </li>
+      <li> <a href="Phototech.html">Phototech</a> </li>
+      <li> <a href="Actualité.html">Actualité</a> </li>
+      <li> <a href="Boutique.html">Boutique</a> </li>
+      <li> <a href="Informations.html">Informations</a> </li>
     </ul>
     <form class="navbar-form navbar-right inline-form">
       <div class="form-group">
         <input type="search" class="input-sm form-control" placeholder="Recherche">
-        <button type="submit" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-eye-open"></span> Chercher</button>
+        <p> <a href="Inscription" class="box">Inscription</a> /
+        <a href="Connexion" class="box">Connexion</a> </p>
       </div>
     </form>
   </div>
 </nav>
-        <div class="row">
-        <div class="col-lg-offset-1 col-lg-2"><div class="logo"><img id="logo" src="ressources/logo.jpg" width="100" height="100"></div></div>
-        <div class="col-lg-offset-3 col-lg-2"><div class="element">BDE CESI LYON</div></div>
-
-        <form class="navbar-form navbar-right inline-form">
-      <div class="form-group">
-        <input type="search" class="input-sm form-control" placeholder="Recherche">
-        <button type="submit" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-eye-open"></span> Chercher</button>
+        </header>
 
 
-   <p> <a href="Inscription" class="box">Inscription</a> /
-        <a href="Connexion" class="box">Connexion</a> </p>
-
-          </div></form></div>
-      </div>
-           <div id="conteneur1">
-              <div class="logo"><img id="logo" src="ressources/logo.jpg" width="100" height="100"></div>
-              <div class="element"><br /><br />BDE CESI LYON</div>
-              <div class="element"><form method="post" action="traitement.php">
-
-    <p>
-
-        <label for="search"></label>
-
-        <input type="search" name="search" id="search" placeholder="Rechercher" size="30" maxlength="10" />
-
-    </p>
-    <p> <a href="Inscription" class="box">Inscription/Connexion</a> </p>
-
-          </div></form>
-        </div>
-
-    <div class="container">
       
+
+
+<div class="container">
+      <header class="row">
+        <div class="col-lg-12">
+          <h1>Bienvenue sur le site du BDE CESI Lyon</h1>
+        </div>
+      </header>
       <div class="row">
-        <div class="col-lg-offset-1 col-lg-2"><a href="Vie Associative" class="box">Vie Associative</a> </div>
-        <div class="col-lg-2"><a href="Phototech" class="box">Phototech</a></div>
-        <div class="col-lg-2"><a href="Actualité" class="box">Actualité</a></div>
-        <div class="col-lg-2"><a href="Boutique.html" class="box">Boutique</a></div>
-        <div class="col-lg-2"><a href="Informations" class="box">Informations</a></div>
-
-
-      </div>
-      <div class="row">
-        <div class="col-lg-4">4 colonnes</div>
-        <div class="col-lg-8">8 colonnes</div>
-      </div>
+        <nav class="col-lg-8">
+          <p>Les BDE sont présents dans les universités et dans les écoles et fonctionnent par filières ou pour tout un établissement. Leur rôle est particulièrement important, en effet, c'est le BDE qui organise toute la vie festive de l'école comme les soirées, les grands repas ou qui est un point de rencontre entre les différentes associations de l'école1. L'association est en général élue tous les ans par les étudiants de l'école ainsi que par les étudiants étrangers en échange dans certaines écoles.
+        </p>
+        </nav>
+        <section class="col-lg-4">
+          <div class="logo"><img id="logo" src="ressources/logo.jpg" width="300" height="300"></div>
+        </section>
+        
     </div>
-
-					
-
-
-
-</header>
-
-<div class="element5">
-    <body>
-		<p align="center"><id="Date">
-			<h5 id="titre"><br /><br />13/04/2017</h5>
-				<p>L'arbalète (du latin arcuballista) est une arme de trait, constituée d'un arc monté sur un fût et lançant des projectiles appelés « carreaux ».
-				</p>
-		</p>
-    </body>
-    </div>
+					</div>
+          <h3 align="center">Prochain evenement :</h3>
+<p align="center"><img id="logoRouen" src="ressources/Cesillades.png" width="600" height="200"></p>
 
 
-<form method="post" action="traitement.php">
-
-   <p>
-
-       <label for="pseudo">Votre pseudo :</label>
-
-       <input type="email" name="pseudo" id="pseudo" />
-
-       
-
-       <br />
-
-       <label for="pass">Votre mot de passe :</label>
-
-       <input type="password" name="pass" id="pass" />
-
-       
-
-   </p>
-
-</form>
-
-<form method="post" action="traitement.php">
-   <p>
-       <label for="ameliorer">
-       Comment pensez-vous que je puisse améliorer mon site ?
-       </label>
-       <br />
-       
-       <textarea name="ameliorer" id="ameliorer" rows="10" cols="50">
-       Améliorer ton site ?!
-       Mais enfin ! Il est tellement génialissime qu'il n'est pas nécessaire de l'améliorer !
-       </textarea>       
-   </p>
-</form>
 <footer>
 
  <div class="container">
-      
+<div class="row2">
+        <div class="col-lg-12">
+          
       <div class="row">
-        <div class="col-lg-4">Adresse</div>
-        <div class="col-lg-4">Mail</div>
-        <div class="col-lg-4">Conditions d'utilisation</div>
+        <div class="col-lg-4">Adresse : 19 Avenue Guy de Collongue, 69130 Écully</div>
+        <div class="col-lg-4">BDE-Lyon@viacesi.fr</div>
+        <div class="col-lg-4">Téléphone : 04 72 18 89 89</div>
       </div>
-
-    </div>
-
-
-    <div class="element6">
-  <div id="facebook">
-    <br /> 
-    <a href="https://www.twitter.com"><img src="ressources/twitter.png">          
-    <a href="https://www.vimeo.com"><img src="ressources/vimeo.png">
-    <a href="https://www.facebook.com"><img src="ressources/facebook.png">    
-  </div>
-
-
+</div>
+</div>
+</div>
 </footer>
 </body>
 </html>

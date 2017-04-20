@@ -1,53 +1,136 @@
 <!DOCTYPE html>
-<style type="text/css">
-     header { background-color: DarkSlateBlue;
-          height: 80px; line-height: 80px;
-          }
-     header ul { padding: 0;        
-          width: 60%;
-          margin: 0 auto;
-          }
-     header ul li { display: inline-block;         
-          width: 20%;
-          font-size: 36px;         
-          text-align: center;
-          vertical-align:top;      
-          }
-     header ul li img { width:120px; border:none;
-          }
-     a { color: orange; text-decoration: none;
-          }
-</style>
-<header>
-     <ul>
-          <li><a href="">Home</a>
-          <li><a href="">about Me</a>
-          <li><a href=""><img src="http://www.icone-png.com/png/53/53180.png"></a>
-          <li><a href="">Skills</a>
-          <li><a href="">Projects</a>
-     </ul>
-</header>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="body.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="js/bootstrap.min" rel="stylesheet">
+    <link href="body.css" rel="stylesheet">
+      <link href="jquery.min" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-<body>
-     <p> zfezefeezf
-  fefzfefze<br /><br /><br /><br />
-  fezf
-  fe<br /><br /><br />
-  fzeezf<br /><br /><br /><br />
-  feeqf<br /><br /><br />eqfEf
-  fzefef
-  <br /><br /><br /><br /><br />
-  zef
-  fe
-  zfe<br /><br /><br /><br /><br />
-  fze
-  fzefez<br /><br /><br /><br />
-  fe
-  fze
-  fz<br /><br /><br /><br />
-  fezs<br /><br /><br />frgdjnjfgqjgr<br /><br /><br /><br />jqjrgnjerg
-  zfe
-  zfe<br /><br /><br /><br /><br />
-</p>
-</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <title>Carousel / Slider</title>
+</head>
+
+
+  <body>
+    <div class="container">
+      <header class="row">
+        <div class="col-lg-12">
+<h1 align="center">Bienvenue dans la galerie photos du BDE !<br /></h1>
+
+<div class="c-wrapper" align="center">
+  <div id="my_carousel2" class="carousel slide" data-ride="carousel">
+  <!-- Bulles -->
+  <ol class="carousel-indicators">
+  <li data-target="#my_carousel2" data-slide-to="0" class="active"></li>
+  <li data-target="#my_carousel2" data-slide-to="1"></li>
+  <li data-target="#my_carousel2" data-slide-to="2"></li>
+  <li data-target="#my_carousel2" data-slide-to="3"></li>
+  <li data-target="#my_carousel2" data-slide-to="4"></li>
+  </ol>
+  <!-- Slides -->
+  <div class="carousel-inner">
+  <!-- Page 1 -->
+  <div class="item active">  
+  <div class="carousel-page">
+  <img src="ressources/PhotoClasse (1).jpg" class="img-responsive img-rounded" style="margin:0px auto;" />
+  </div> 
+  </div>   
+  <!-- Page 2 -->
+  <div class="item"> 
+  <div class="carousel-page"><img src="ressources/PhotoClasse (2).jpg" class="img-responsive img-rounded" 
+  style="margin:0px auto;"  /></div> 
+  </div>  
+  <!-- Page 3 -->
+  <div class="item">  
+  <div class="carousel-page"><img src="ressources/PhotoClasse (3).jpg" class="img-responsive img-rounded" 
+  style="margin:0px auto;"  />
+  </div>  
+  </div>     
+   <!-- Page 4 -->
+  <div class="item"> 
+  <div class="carousel-page"><img src="ressources/PhotoClasse (4).jpg" class="img-responsive img-rounded" 
+  style="margin:0px auto;"  /></div> 
+  </div> 
+   <!-- Page 5 -->
+  <div class="item"> 
+  <div class="carousel-page"><img src="ressources/PhotoClasse (5).jpg" class="img-responsive img-rounded" 
+  style="margin:0px auto;"  /></div> 
+  </div> 
+  </div>
+  <!-- Contrôles -->
+  <a class="left carousel-control" href="#my_carousel2" data-slide="prev">
+  <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#my_carousel2" data-slide="next">
+  <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+  </div>
+</div>
+        </div>
+      </header>
+      <div class="row">
+        <section class="col-lg-12">
+          <div class="container">
+
+  <section class="row">
+
+     <div class="col-xs-4 col-sm-3 col-md-2"><a href="ressources/PhotoClasse (1).jpg"><img src="ressources/PhotoClasse (1)1.jpg" alt="Photo de classe"></a></div>
+
+    <div class="col-xs-4 col-sm-3 col-md-2"><a href="ressources/PhotoClasse (2).jpg"><img src="ressources/PhotoClasse (2)2.jpg" alt="Photo de classe"></a></div>
+
+    <div class="col-xs-4 col-sm-3 col-md-2"><a href="ressources/PhotoClasse (3).jpg"><img src="ressources/PhotoClasse (3)3.jpg" alt="Photo de classe"></a></div>
+
+    <div class="col-xs-4 col-sm-3 col-md-2"><a href="ressources/PhotoClasse (4).jpg"><img src="ressources/PhotoClasse (4)4.jpg" alt="Photo de classe"></a></div>
+
+    <div class="col-xs-4 col-sm-3 col-md-2"><a href="ressources/PhotoClasse (5).jpg"><img src="ressources/PhotoClasse (5)5.jpg" alt="Photo de classe"></a></div>
+
+    <div class="col-xs-4 col-sm-3 col-md-2"><img src="ressources/PhotoClasse (6).jpg" alt="Photo de classe"></div>
+
+    <div class="col-xs-4 col-sm-3 col-md-2"><img src="ressources/PhotoClasse (7).jpg" alt="Photo de classe"></div>
+
+    <div class="col-xs-4 col-sm-3 col-md-2"><img src="ressources/PhotoClasse (8).jpg" alt="Photo de classe"></div>
+
+    <div class="col-xs-4 col-sm-3 col-md-2"><img src="ressources/PhotoClasse (9).jpg" alt="Photo de classe"></div>
+
+    <div class="col-xs-4 col-sm-3 col-md-2"><img src="ressources/PhotoClasse (10).jpg" alt="Photo de classe"></div>
+
+    <div class="col-xs-4 col-sm-3 col-md-2"><img src="ressources/PhotoClasse (11).jpg" alt="Photo de classe"></div>
+
+    <div class="col-xs-4 col-sm-3 col-md-2"><img src="ressources/PhotoClasse (12).jpg" alt="Photo de classe"></div>
+
+    <div class="col-xs-4 col-sm-3 col-md-2"><img src="ressources/PhotoClasse (13).jpg" alt="Photo de classe"></div>
+
+    <div class="col-xs-4 col-sm-3 col-md-2"><img src="ressources/PhotoClasse (14).jpg" alt="Photo de classe"></div>
+
+    <div class="col-xs-4 col-sm-3 col-md-2"><img src="ressources/PhotoClasse (15).jpg" alt="Photo de classe"></div>
+
+    <div class="col-xs-4 col-sm-3 col-md-2"><a href="ressources/PhotoClasse (16).jpg"><img src="ressources/PhotoClasse (16)16.jpg" alt="Photo de classe"></a> </div>
+
+    <div class="col-xs-4 col-sm-3 col-md-2"><a href="ressources/PhotoClasse (3).jpg"><img src="ressources/PhotoClasse (3)3.jpg" alt="Photo de classe"></a></div>
+
+    <div class="col-xs-4 col-sm-3 col-md-2"><a href="ressources/PhotoClasse (4).jpg"><img src="ressources/PhotoClasse (4)4.jpg" alt="Photo de classe"></a></div>
+  </section>
+
+</div>
+        </section>
+      </div>
+      <footer class="row">
+          
+        <div class="col-lg-4">Adresse : 19 Avenue Guy de Collongue, 69130 Écully</div>
+        <div class="col-lg-4">BDE-Lyon@viacesi.fr</div>
+        <div class="col-lg-4">Téléphone : 04 72 18 89 89</div>
+      </div>
+</div>
+</div>
+    </div>
+      </footer>
+    </div>
+  </body>
 </html>
